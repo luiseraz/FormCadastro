@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulário de Cadastro</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<main class="container">
+	<h1>Cadastro</h1>
+	<p class="lead">Preencha os campos abaixo.</p>
+
+	<form action="index.php" method="post">
+		<input name="nome" type="text" required maxlength="100" placeholder="Seu nome">
+		<input name="data_nasc" type="date" required>
+		<input name="telefone" type="tel" required maxlength="20" placeholder="Seu telefone">
+		<input name="email" type="email" required maxlength="150" placeholder="Seu E-mail">
+		<input name="cidade" type="text" required maxlength="100" placeholder="Sua cidade">
+		<button type="submit"> Enviar </button>
+	</form>
+</main>
+</body>
+</html>
